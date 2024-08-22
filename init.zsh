@@ -10,7 +10,7 @@ fi
 
 export EZA_COLORS='da=1;34:gm=1;34:Su=1;34'
 
-alias ls='eza --group-directories-first'
+alias ls='eza --group-directories-first --icons=always --group'
 
 if eza --git /dev/null &>/dev/null; then
   alias ll='ls -l --git'      # Long format, git status
